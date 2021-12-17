@@ -1,25 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  outline: none;
-  text-decoration: none;
-  font-family: inherit;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+* {margin:0;padding:0;border:0;background:transparent;outline:none;text-decoration:none;font-family:inherit;box-sizing:border-box;}
 
-ol,
-ul,
+ol, 
+ul, 
 li {
-  list-style: none;
-  display: block;
+  list-style:none;
+  display:block;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing:0;
 }
 
 a img {
@@ -27,22 +17,21 @@ a img {
 }
 
 button,
-a {
-  cursor: pointer;
+a{
+  cursor: pointer; 
   color: inherit;
 }
 
-textarea {
+textarea{
   resize: none;
 }
 
 button,
 input,
 textarea,
-select {
-  -moz-appearance: none !important;
-       appearance: none !important;
-  -webkit-appearance: none !important;
+select{
+  appearance: none !important; 
+  -webkit-appearance: none !important; 
   border-radius: 0;
 }
 
@@ -50,16 +39,15 @@ body {
   background-color: #f7e4d4;
 }
 
-body,
-input,
+body, 
+input, 
 textarea {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -79,18 +67,13 @@ h1, button {
 h1 {
   color: #467745;
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 520px) {
-  h1 {
+  
+  @media  screen and (max-width: 520px) {
     font-size: 36px;
   }
-}
-
-@media screen and (min-width: 521px) {
-  h1 {
+  @media screen and (min-width: 521px) {
     font-size: 48px;
-    text-align: center;
+    text-align: center;  
   }
 }
 
@@ -114,12 +97,8 @@ textarea {
 }
 
 .checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 input[type="checkbox"] {
@@ -127,8 +106,7 @@ input[type="checkbox"] {
   height: 20px;
   background-color: white;
   margin-right: 20px;
-  -ms-flex-preferred-size: 20px;
-      flex-basis: 20px;
+  flex-basis: 20px;
 }
 
 button {
@@ -141,4 +119,4 @@ button {
   margin-top: 20px;
   text-transform: uppercase;
 }
-/*# sourceMappingURL=style.css.map */
+
